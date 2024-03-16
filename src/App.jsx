@@ -1,13 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import SiteApp from './components/structural/SiteApp'
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <h1>Ians Tattoo Website</h1>
+      <SiteApp />
     </>
   )
 }
-
-export default App
