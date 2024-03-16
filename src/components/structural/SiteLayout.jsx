@@ -1,4 +1,4 @@
-import { Nav, Navbar} from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { Link, Outlet } from "react-router-dom";
 
 export default function SiteLayout(props) {
