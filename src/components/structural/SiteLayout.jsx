@@ -5,15 +5,15 @@ export default function SiteLayout(props) {
     return <div>
         <Navbar fixed="top" bg="dark" data-bs-theme="dark">
             <Container>
-            <Nav className="me-auto">
-                <Nav.Link as={Link} to="./SiteHome">Home</Nav.Link>
-                <Nav.Link as={Link} to="./AboutMe">About Me</Nav.Link>
-            </Nav>
+                <Nav className="me-auto">
+                    <Nav.Link as={Link} to="./SiteHome">Home</Nav.Link>
+                    <Nav.Link as={Link} to="./AboutMe">About Me</Nav.Link>
+                </Nav>
             </Container>
         </Navbar>
-        
-        <div style={{ margin: "1rem" }}>
-            <Outlet />
-        </div>
+
+        {/* <div style={{ margin: "1rem" }}> */}
+        <Outlet />
+        {/* </div> */}
     </div>
 }
