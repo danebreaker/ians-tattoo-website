@@ -12,7 +12,7 @@ export default function SiteHome() {
                 <Card>
                     <Card.Img variant="top" src="src/images/Tattoo.jpg"/>
                     <Card.Body>
-                        <Card.Title>Tattoo</Card.Title>
+                        <Card.Title style={{textAlign: "center", fontWeight: "bold"}}>Tattoos</Card.Title>
                         <Card.Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -25,7 +25,7 @@ export default function SiteHome() {
                 <Card>
                     <Card.Img variant="top" src="src/images/Art.jpg"/>
                     <Card.Body>
-                        <Card.Title>Art</Card.Title>
+                        <Card.Title style={{textAlign: "center", fontWeight: "bold"}}>Art</Card.Title>
                         <Card.Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -38,7 +38,7 @@ export default function SiteHome() {
                 <Card>
                     <Card.Img variant="top" src="src/images/Music.jpg"/>
                     <Card.Body>
-                        <Card.Title>Music</Card.Title>
+                        <Card.Title style={{textAlign: "center", fontWeight: "bold"}}>Music</Card.Title>
                         <Card.Text>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
