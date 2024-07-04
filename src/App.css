@@ -59,3 +59,20 @@
   margin: 0;
   padding: 0;
 }
+
+.animated{
+  
+  padding-top: 0px;
+  margin-top:0px;
+  top: 50px;
+  position: relative;
+  min-height: 95vh;
+  min-width: 95vw;
+  animation: fade-in 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-in {
+  from{opacity: 0;}
+  to{opacity: 100;}
+}

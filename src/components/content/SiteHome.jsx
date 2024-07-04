@@ -5,7 +5,7 @@ export default function SiteHome() {
     return (
     <>
         {/* <Container max-width='100%'> */}
-        <Image src="src/images/DemoBanner.jpg" fluid style={{paddingTop: "0px;",marginTop:"0px", top: "50px", position:"relative", minHeight: "95vh", minWidth: "95vw"}}></Image>
+        <Image className="animated" src="src/images/DemoBanner.jpg" fluid ></Image>
         {/* </Container> */}
         <Container fluid style={{position: "relative", top:"50px", maxWidth:"100%"}}>
             <CardGroup>
